@@ -1,0 +1,162 @@
+.body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+  } 
+  
+.notificationsContainer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; /* Adiciona quebra de linha para telas menores */
+}
+
+.header {
+  display: flex;
+  align-items: colum; /* Alinha verticalmente a imagem e o texto */
+}
+
+.imgProfile {
+  margin-right: 10px; /* Espaço entre a imagem e o texto */
+  margin-left: 10px;
+}
+
+.imgProfile img {
+  max-width: 80px; /* Define o tamanho máximo da imagem */
+  max-height: 80px;
+  margin-top: 21px;
+}
+.info {
+  width: 14rem;
+}
+
+.info h3 {
+  width: 15rem;
+  margin-bottom: 8px;
+  margin-top: 10px;
+}
+
+.info p {
+  width: 15rem;
+  font-size: 0.9rem;
+  color: var(--color-black);
+}
+
+.description p {
+  min-width: 20rem; /* Define a largura mínima */
+  max-width: 100rem; /* Limita a largura máxima */
+  margin: 20px 10px;
+  white-space: normal; /* Permite a quebra de linha */
+  word-wrap: break-word; /* Garante a quebra de palavras longas */
+  font-size: 1rem;
+  color: var(--color-black);
+}
+
+.description button {
+  margin: 30px;
+  height: 2rem;
+  width: 7rem;
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: var(--color-button);
+  color: var(--color-white);
+  border: none;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  cursor: pointer;
+}
+
+.description button:hover{
+  background-color: #de5e0f;
+}
+
+.DataTime {
+  font-size: 1rem;
+  color: var(--color-datatime);
+  margin-left: 90%;
+  margin-top:10px;
+  
+}
+.Notification{
+  display: flex;
+  flex-direction: column;
+  height: 18rem;
+  border-radius: 20px;
+  margin: 10px;
+  margin-bottom: 2rem;
+  width: 25rem;
+  text-align: left;
+  background-color: var(--color-background);
+}
+
+.Container {
+  margin-bottom: 15px; /* Espaçamento inferior do botão*/
+}
+
+.imgPrincipal{
+  width: 965px;
+  height: auto;
+  border-radius: 20px;
+}
+.adicionarDoacao {
+  height: 40px;
+  width: 96%;
+  display: flex;
+  margin-top: 20px;
+  align-items: center;
+  border-radius: 7px;
+  display: flex;
+  justify-content: end;
+}
+
+.adicionarDoacao button{
+  margin: 30px;
+  height: 2.3rem;
+  width: 7rem;
+  font-size: 1rem;
+  font-weight: 500;
+  background-color: var(--color-button);
+  color: var(--color-white);
+  border: none;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.adicionarDoacao button:hover{
+  background-color: #f17022;
+}
+
+.adicionarDoacao a{
+  color: black;
+  color: var(--color-white);
+  gap: 10px;
+}
+
+.detailsButton{
+  padding: 15px;
+}
+
+.botaoCriar {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  font-size: 20px;
+}
+
+/* Tela de notebook */
+@media screen and (max-width: 1500px) {  
+  .imgPrincipal{
+    width: 900px;
+  }
+}
+
+@media screen and (max-width: 2500px) {  
+  .imgPrincipal{
+    width: 900px;
+  }
+}

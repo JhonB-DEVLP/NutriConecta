@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.body {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.newPost {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.newPostTitulo {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5px;
+  text-align: left;
+}
+
+.newPostTitulo h1{
+  width: 20rem;
+  font-size: 1.7rem;
+}
+
+.inputImage {
+  position: relative;
+  margin-top: 1rem;
+  width: 30rem;
+  height: 120px;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 21px;
+  border: 3px solid var(--color-button);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+
+.iconePubli {
+  width: 60px;
+  height: 60px;
+}
+
+.form {
+  border: 10px solid var(--color-background);
+  height: 26rem;
+  width: 60rem;
+  border-radius: 10px;
+}
+
+.form form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.form input {
+  color: var(--color-black);
+  background-color: var(--color-background);
+  margin: 10px;
+  width: 30rem;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 15px;
+}
+
+.form textarea {
+  color: var(--color-black);
+  background-color: var(--color-background);
+  margin-top: 18px;
+  margin: 10px;
+  width: 30rem;
+  height: 80px;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 15px;
+  resize: none;
+}
+
+.botaoEnviar button {
+  margin-left: 0%;
+  margin-top: 18px;
+  height: 35px;
+  width: 110px;
+  color:black;
+  font-weight: 600;
+  font-size: 1rem;
+  background-color: var(--color-button);
+  border: none;
+  text-align: center;
+  align-items: center;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+.botaoEnviar button:hover{
+  background-color: #e65a00;
+}
+
+
+.imagePreview {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  z-index: 2;
+}
+
+.imagePreview img {
+  width: 300px;
+  height: 120px;
+  padding: 5px;
+  border-radius: 7px;
+  object-fit: cover;
+}

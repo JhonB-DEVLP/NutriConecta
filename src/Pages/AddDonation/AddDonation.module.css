@@ -1,0 +1,148 @@
+.body {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.newDonation {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.DonationTitulo {
+  display: flex;
+  width: 100%;
+  margin-bottom: 20px;
+  padding: 5px;
+  text-align: left;
+}
+
+.newPostTitulo h1{
+  width: 20rem;
+  font-size: 1.7rem;
+}
+
+.form{
+  border: 10px solid var(--color-background);
+  height: 33rem;
+  width: 60rem;
+  border-radius: 10px;
+}
+
+.form form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.inputNomeAlimento{
+  width: 72%;
+}
+
+.inputNomeAlimento h1 {
+  font-size: 13px;
+  text-align: left;
+  margin-left: 105px;
+  padding: 2px;
+  margin-top: 1rem;
+}
+
+.inputNomeAlimento input {
+    color: var(--color-black);
+    background-color: var(--color-background);
+    margin: 10px;
+    width: 30rem;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 15px;
+}
+
+.inputDateFab {
+  width: 72%;
+  padding: 1px;
+}
+
+.inputDateFab h1 {
+  font-size: 13px;
+  text-align: left;
+  margin-left: 105px;
+  padding: 2px;
+}
+
+.inputDateFab input {
+  color: var(--color-black);
+  background-color: var(--color-background);
+  margin: 10px;
+  width: 30rem;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 15px;
+  border: none;
+}
+
+.inputDateVal {
+  width: 72%;
+}
+
+.inputDateVal h1 {
+  font-size: 13px;
+  text-align: left;
+  margin-left: 105px;
+  padding: 2px;
+}
+
+.inputDateVal input {
+  color: var(--color-black);
+  background-color: var(--color-background);
+  margin: 10px;
+  width: 30rem;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 15px;
+  border: none;
+}
+
+.inputQuantity {
+  width: 72%;
+  padding: 1px;
+}
+
+.inputQuantity input {
+  color: var(--color-black);
+  background-color: var(--color-background);
+  margin: 10px;
+  width: 30rem;
+  border-radius: 8px;
+  border: none;
+  padding: 10px 15px;
+  border: none;
+}
+
+.form textarea {
+  height: 100px; /* Aumenta a altura do textarea */
+  border-radius: 8px;
+  border: 3px solid var(--color-button);
+  background-color: var(--color-white);
+  color: var(--color-black);
+  padding: 10px 15px;
+  resize: none;
+  margin-top: 5px;
+  width: 30rem;
+}
+
+.submitButton {
+  margin-top: 20px;
+  height: 40px;
+  width: 110px;
+  color: white;
+  font-size: 1rem;
+  border: 2px solid white;
+  background-color: #e65a00;
+  border-radius: 7px;
+  cursor: pointer;
+}
